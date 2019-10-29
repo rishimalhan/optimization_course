@@ -1,0 +1,1 @@
+g++ -std=c++11 -I/home/badass/optimization/Constrained/cplex/include -I/home/badass/optimization/Constrained/concert/include -DIL_STD -L/home/badass/optimization/Constrained/cplex/lib/x86-64_linux/static_pic -L/home/badass/optimization/Constrained/concert/lib/x86-64_linux/static_pic -o test.o tests_cplex.cpp -lilocplex -lconcert -lcplex -lm -lpthread

@@ -1,0 +1,210 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcd4b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcd4b.dir/build.make CMakeFiles/cmTC_dcd4b.dir/build
+make[1]: Entering directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dcd4b.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_dcd4b.dir/src.cxx.o -c /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_dcd4b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dcd4b.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_dcd4b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dcd4b/fast' failed
+make: *** [cmTC_dcd4b/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1d09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1d09.dir/build.make CMakeFiles/cmTC_a1d09.dir/build
+make[1]: Entering directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1d09.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_a1d09.dir/src.cxx.o -c /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'
+CMakeFiles/cmTC_a1d09.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a1d09.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a1d09.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a1d09/fast' failed
+make: *** [cmTC_a1d09/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ce75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ce75.dir/build.make CMakeFiles/cmTC_0ce75.dir/build
+make[1]: Entering directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ce75.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_0ce75.dir/src.cxx.o -c /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'
+CMakeFiles/cmTC_0ce75.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0ce75.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0ce75.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0ce75/fast' failed
+make: *** [cmTC_0ce75/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e874/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e874.dir/build.make CMakeFiles/cmTC_4e874.dir/build
+make[1]: Entering directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e874.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_4e874.dir/src.cxx.o -c /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTC_4e874.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4e874.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_4e874.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4e874/fast' failed
+make: *** [cmTC_4e874/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4894c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4894c.dir/build.make CMakeFiles/cmTC_4894c.dir/build
+make[1]: Entering directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4894c.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_4894c.dir/src.cxx.o -c /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTC_4894c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4894c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_4894c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4894c/fast' failed
+make: *** [cmTC_4894c/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecc90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ecc90.dir/build.make CMakeFiles/cmTC_ecc90.dir/build
+make[1]: Entering directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ecc90.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_ecc90.dir/src.cxx.o -c /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'
+CMakeFiles/cmTC_ecc90.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ecc90.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ecc90.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ecc90/fast' failed
+make: *** [cmTC_ecc90/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86a8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86a8c.dir/build.make CMakeFiles/cmTC_86a8c.dir/build
+make[1]: Entering directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86a8c.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_86a8c.dir/src.cxx.o -c /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+CMakeFiles/cmTC_86a8c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_86a8c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_86a8c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_86a8c/fast' failed
+make: *** [cmTC_86a8c/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -v
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -fpp
+
+The output was:
+No such file or directory
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_271ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_271ea.dir/build.make CMakeFiles/cmTC_271ea.dir/build
+make[1]: Entering directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_271ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_271ea.dir/CheckSymbolExists.c.o   -c /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_271ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_271ea.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_271ea.dir/CheckSymbolExists.c.o  -o cmTC_271ea -rdynamic 
+CMakeFiles/cmTC_271ea.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_271ea.dir/build.make:97: recipe for target 'cmTC_271ea' failed
+make[1]: *** [cmTC_271ea] Error 1
+make[1]: Leaving directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_271ea/fast' failed
+make: *** [cmTC_271ea/fast] Error 2
+
+File /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0eac6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0eac6.dir/build.make CMakeFiles/cmTC_0eac6.dir/build
+make[1]: Entering directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0eac6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0eac6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0eac6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eac6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0eac6.dir/CheckFunctionExists.c.o  -o cmTC_0eac6 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0eac6.dir/build.make:97: recipe for target 'cmTC_0eac6' failed
+make[1]: *** [cmTC_0eac6] Error 1
+make[1]: Leaving directory '/home/badass/optimization/eigen-eigen-5a0156e40feb/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0eac6/fast' failed
+make: *** [cmTC_0eac6/fast] Error 2
+
+
